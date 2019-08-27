@@ -1,0 +1,28 @@
+:root{
+  --page-background: #fff2e8;
+  --contents-background: #ffb780;
+}
+
+body{
+  width: 100%;
+  background-color: var(--page-background);
+}
+
+.contents-area{
+  width: 100%;
+  background-color: var(--contents-background);
+}
+
+.content{
+  width: 90%;
+  margin: auto;
+  padding: 20px 20px 20px 20px;
+  background-color: #ffffff;
+}
+
+@media (min-width: 1200px){
+  .contents-area{
+    width: 1200px;
+    margin: auto;
+  }
+}
