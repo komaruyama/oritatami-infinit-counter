@@ -16,8 +16,14 @@ body{
 .content{
   width: 90%;
   margin: auto;
+  margin-top: 20px;
   padding: 20px 20px 20px 20px;
   background-color: #ffffff;
+}
+
+.table-brick{
+  padding-left: 20px;
+  text-align: center;
 }
 
 @media (min-width: 1200px){
