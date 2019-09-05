@@ -23,12 +23,26 @@ body{
 
 .table-brick{
   padding-left: 20px;
+  padding-bottom: 50px;
   text-align: center;
+  border-spacing: 30px;
+}
+.table-brick th{
+  font-size: 14pt;
+}
+.table-brick td{
+  font-size: 25pt;
 }
 
 @media (min-width: 1200px){
   .contents-area{
     width: 1200px;
     margin: auto;
+  }
+}
+
+@media (max-width: 600px){
+  .contents-area{
+    width: 600px;
   }
 }
