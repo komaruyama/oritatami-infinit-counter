@@ -1,16 +1,29 @@
-:root{
-  --page-background: #fff2e8;
-  --contents-background: #ffb780;
-}
 
 body{
   width: 100%;
-  background-color: var(--page-background);
+  background-color: #fff2e8;
 }
 
 .contents-area{
   width: 100%;
-  background-color: var(--contents-background);
+  background-color: #ffb780;
+}
+
+.howto{
+  padding: 30px 20px 20px 30px;
+}
+
+.howto h1{
+  font-size: 18pt;
+}
+
+.howto ol{
+  padding: 5px 10px 10px 10px;
+}
+
+.codep{
+  padding: 3px 3px 3px 3px;
+  background-color: #f0f0f0;
 }
 
 .content{
